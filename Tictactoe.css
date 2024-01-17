@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Marhey:wght@300&family=Roboto:ital@1&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Marhey:wght@300&family=Playfair+Display:ital@1&family=Roboto:ital@1&display=swap');
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  background-color: #DDA0DD;
+}
+ul{
+  list-style-type: none;
+  font-size: 2vh;
+  font-weight: bold;
+  color: white;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+font-family: 'Marhey', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+ul:hover{
+  border-bottom: 0.3vh solid white;
+}
+.navbar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 7vh;
+  background-color: #9400D3;
+  color: #DDA0DD;
+}
+.gamecontainer{
+  display: flex;
+  justify-content: center;
+  margin-top: 2vh;
+  color: black;
+}
+.gameinfo{
+color: #9400D3;
+}
+.container{
+  display: grid;
+  grid-template-columns: repeat(3,10vw);
+  grid-template-rows: repeat(3,10vw);
+}
+.box{
+  border: 0.2vh solid black;
+  font-size: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box:hover{
+  background-color: #9400D3;
+}
+.info{
+  border: 1px solid #9400D3;
+  padding: 2vh;
+  font-size: 3vh;
+  font-weight: bold;
+}
+#reset{
+  height:30px;
+  width: 60px;
+  font-size: 10px;
+  background-color: #9400D3;
+  border:1px solid white;
+  border-radius: 20px;
+  color: white;
+  cursor: pointer;
+}
+.center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction:column;
+}
+.para{
+  text-align:center;
+  margin:12px; 
+  font-size:3vh;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+font-family: 'Marhey', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Roboto', sans-serif;
+}
+.title{
+  font-family: 'Kdam Thmor Pro', sans-serif;
+font-family: 'Marhey', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Roboto', sans-serif;
+text-align:center;
+margin-top:2vh;
+font-size:3vh;
+border-bottom:0.3vh solid #9400D3;
+}
+.imgbox img{
+  width: 0px;
+  transition: width 1s ease-in-out;
+}
+.br{
+  border-right: 0px;
+}
+.bl{
+  border-left: 0px;
+}
+.bt{
+  border-top: 0px;
+}
+.bb{
+  border-bottom: 0px;
+}
+@media screen and (max-width: 950px)
+
+{
+
+    .gameContainer{
+        flex-wrap: wrap;
+    }
+    .gameInfo{
+        margin-top: 34px;
+    }
+    .gameInfo h1{
+        font-size: 1.5rem;
+    }
+    .container { 
+        grid-template-rows: repeat(3, 20vw);
+        grid-template-columns: repeat(3, 20vw);
+    }
+}
