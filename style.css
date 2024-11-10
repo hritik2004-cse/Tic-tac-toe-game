@@ -30,6 +30,7 @@ ul:hover{
 }
 h1{
   font-size:4vh;
+  color:#fff;
 }
 .gamecontainer{
   display: flex;
