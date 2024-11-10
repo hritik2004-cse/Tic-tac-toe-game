@@ -28,6 +28,9 @@ ul:hover{
   background-color: #9400D3;
   color: #DDA0DD;
 }
+h1{
+  font-size:4vh;
+}
 .gamecontainer{
   display: flex;
   justify-content: center;
